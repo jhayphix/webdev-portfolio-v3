@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webdev-portfolio/static/css/main.d10de226.css",
-    "main.js": "/webdev-portfolio/static/js/main.ceb05391.js",
+    "main.js": "/webdev-portfolio/static/js/main.ea4dc67d.js",
     "static/js/311.8eb44926.chunk.js": "/webdev-portfolio/static/js/311.8eb44926.chunk.js",
     "static/js/726.1c42dd3a.chunk.js": "/webdev-portfolio/static/js/726.1c42dd3a.chunk.js",
     "static/media/dashboard_img_1.png": "/webdev-portfolio/static/media/dashboard_img_1.7dab26df22b514386cfa.png",
@@ -32,12 +32,12 @@
     "static/media/checkmark_icon.svg": "/webdev-portfolio/static/media/checkmark_icon.8a436541ee92f58bd1f505dc22b8e633.svg",
     "static/media/service_icon_5.svg": "/webdev-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
     "main.d10de226.css.map": "/webdev-portfolio/static/css/main.d10de226.css.map",
-    "main.ceb05391.js.map": "/webdev-portfolio/static/js/main.ceb05391.js.map",
+    "main.ea4dc67d.js.map": "/webdev-portfolio/static/js/main.ea4dc67d.js.map",
     "311.8eb44926.chunk.js.map": "/webdev-portfolio/static/js/311.8eb44926.chunk.js.map",
     "726.1c42dd3a.chunk.js.map": "/webdev-portfolio/static/js/726.1c42dd3a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d10de226.css",
-    "static/js/main.ceb05391.js"
+    "static/js/main.ea4dc67d.js"
   ]
 }
