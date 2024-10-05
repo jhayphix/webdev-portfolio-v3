@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/webdev-portfolio/static/css/main.d10de226.css",
+    "main.js": "/webdev-portfolio/static/js/main.ceb05391.js",
+    "static/js/311.8eb44926.chunk.js": "/webdev-portfolio/static/js/311.8eb44926.chunk.js",
+    "static/js/726.1c42dd3a.chunk.js": "/webdev-portfolio/static/js/726.1c42dd3a.chunk.js",
+    "static/media/dashboard_img_1.png": "/webdev-portfolio/static/media/dashboard_img_1.7dab26df22b514386cfa.png",
+    "static/media/dashboard_img_3.png": "/webdev-portfolio/static/media/dashboard_img_3.02e96f656d69ac42361e.png",
+    "static/media/shape_left_1.svg": "/webdev-portfolio/static/media/shape_left_1.61eb129f3393cb6d2842.svg",
+    "static/media/shape_right_1.svg": "/webdev-portfolio/static/media/shape_right_1.80a23e121db5c1edf5d1.svg",
+    "static/media/shape_left_4.svg": "/webdev-portfolio/static/media/shape_left_4.4d4dd2a79e5cba44aac6.svg",
+    "static/media/shape_right_2.svg": "/webdev-portfolio/static/media/shape_right_2.069979acd044abd5e73d.svg",
+    "static/media/shape_left_2.svg": "/webdev-portfolio/static/media/shape_left_2.88d8be14b08e86391299.svg",
+    "static/media/shape_right_3.svg": "/webdev-portfolio/static/media/shape_right_3.a80f1dcb97be1acb4d22.svg",
+    "static/media/shape_mid_2.svg": "/webdev-portfolio/static/media/shape_mid_2.4f97b241a65ea6336c72.svg",
+    "static/media/shape_mid_1.svg": "/webdev-portfolio/static/media/shape_mid_1.054b18e5b04292bf7848.svg",
+    "static/media/dashboard_img_2.png": "/webdev-portfolio/static/media/dashboard_img_2.f7b84200da8d9555a9d6.png",
+    "static/media/portrait.png": "/webdev-portfolio/static/media/portrait.2d8a09b3984ed26d8ed8.png",
+    "static/media/shape_left_3.svg": "/webdev-portfolio/static/media/shape_left_3.5b626c8719eb39f37b39.svg",
+    "static/media/award_icon.svg": "/webdev-portfolio/static/media/award_icon.175843571048489be1030076942833e4.svg",
+    "static/media/hand_hold_feather.svg": "/webdev-portfolio/static/media/hand_hold_feather.b58250a60265bf2f0e1cab1c6d3543e6.svg",
+    "static/media/calender_icon.svg": "/webdev-portfolio/static/media/calender_icon.35a51b489de6f9e09a99a3bd568391f7.svg",
+    "static/media/service_icon_2.svg": "/webdev-portfolio/static/media/service_icon_2.d74270f5e7538eea57991ccad0d36b50.svg",
+    "static/media/checklist_icon.svg": "/webdev-portfolio/static/media/checklist_icon.6496477c06bd57ca74e7c3ef548d95e8.svg",
+    "index.html": "/webdev-portfolio/index.html",
+    "static/media/shape_cube.svg": "/webdev-portfolio/static/media/shape_cube.5941a353500aaccc674c.svg",
+    "static/media/service_icon_6.svg": "/webdev-portfolio/static/media/service_icon_6.c2717016e648f7515f60a74eff2ada06.svg",
+    "static/media/service_icon_4.svg": "/webdev-portfolio/static/media/service_icon_4.cc9587a859e96ddf4ef5dc662ae4a585.svg",
+    "static/media/service_icon_1.svg": "/webdev-portfolio/static/media/service_icon_1.b284adf97f286c9c49981b9298a2e1e5.svg",
+    "static/media/shape_cross.svg": "/webdev-portfolio/static/media/shape_cross.2cda514d360979523966.svg",
+    "static/media/service_icon_3.svg": "/webdev-portfolio/static/media/service_icon_3.04c98d2abd57d0b6b874602dbdc5e182.svg",
+    "static/media/checkmark_icon.svg": "/webdev-portfolio/static/media/checkmark_icon.8a436541ee92f58bd1f505dc22b8e633.svg",
+    "static/media/service_icon_5.svg": "/webdev-portfolio/static/media/service_icon_5.70a90f26af97e2f7754294bbcc5e696c.svg",
+    "main.d10de226.css.map": "/webdev-portfolio/static/css/main.d10de226.css.map",
+    "main.ceb05391.js.map": "/webdev-portfolio/static/js/main.ceb05391.js.map",
+    "311.8eb44926.chunk.js.map": "/webdev-portfolio/static/js/311.8eb44926.chunk.js.map",
+    "726.1c42dd3a.chunk.js.map": "/webdev-portfolio/static/js/726.1c42dd3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d10de226.css",
+    "static/js/main.ceb05391.js"
+  ]
+}
