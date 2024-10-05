@@ -45,7 +45,6 @@ const DefaultContextProvider = ({ children }) => {
   const contact_page_effect = "left";
   const service_page_effect = "right";
   const portfolio_page_effect = "bottom";
-  const project_details_page_effect = "flip";
 
   /*
   |----------------------------------------
@@ -65,7 +64,6 @@ const DefaultContextProvider = ({ children }) => {
     contact_page_effect,
     service_page_effect,
     portfolio_page_effect,
-    project_details_page_effect,
   };
   /*
   |----------------------------------------

@@ -19,10 +19,10 @@ const ProjectCard = ({ project }) => {
   const { def_project_img_1 } = useContext(DefaultContext);
 
   // Extract variables from data (Project data)
-  const project_category = project?.categories?.[0]?.title || "Category";
   const project_main_image = project?.main_image?.asset?.url || "";
   const project_title = project?.title || "Title";
-  const project_type = project?.project_type || "Type";
+  const project_type = project?.project_types?.[0]?.title || "Type";
+  const project_url = project?.project_url || "/";
 
   /*
     |----------------------------------------
@@ -35,7 +35,9 @@ const ProjectCard = ({ project }) => {
       <a
         data-gallery="portfolioGallery"
         className="portfolio-lightbox cursor_pointer"
-        href="/webdev-portfolio/"
+        rel="noreferrer"
+        target="_blank"
+        href={project_url}
       >
         <div className="work-img">
           <img
@@ -56,15 +58,18 @@ const ProjectCard = ({ project }) => {
           <div className="col-sm-9">
             <h2 className="w-title mb-2"> {project_title} </h2>
             <div className="w-more">
-              <span className="w-category text_accent_1">
-                WebDev
-              </span>{" "}
-              / <span className="w-date">{project_type}</span>
+              <span className="w-category text_accent_1">WebDev</span> /{" "}
+              <span className="w-date">{project_type}</span>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="w-like">
-              <a className="plus_link cursor_pointer" href="/webdev-portfolio/">
+              <a
+                className="plus_link cursor_pointer"
+                href={project_url}
+                rel="noreferrer"
+                target="_blank"
+              >
                 {" "}
                 <BiPlusCircle className="plus_icon" />
               </a>

@@ -58,12 +58,6 @@ const NavigationContextProvider = ({ children }) => {
   const resume_path = `${base_route}/documents/samuel_ablordeppey_webdev_resume.pdf`;
   const analytic_portfolio_url = "https://analytic-portfolio.vercel.app/";
 
-  // to delete
-  const projectDetailsURL = (category, slug, id) => {
-    const path = `${base_route}/p/${slug}-${id}`;
-    return path;
-  };
-
   /*
   |----------------------------------------
   | Context
@@ -82,7 +76,6 @@ const NavigationContextProvider = ({ children }) => {
     contact,
 
     // Custom path
-    projectDetailsURL,
     resume_path,
     analytic_portfolio_url,
   };

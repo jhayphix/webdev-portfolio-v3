@@ -9,11 +9,10 @@ import { NavigationContext } from "@contexts/NavigationContextProvider";
 // ... Components
 import AboutPage from "@pages/about_page/AboutPage";
 import ContactPage from "@pages/contact_page/ContactPage";
-import ProjectDetailsPage from "@pages/project_details_page/ProjectDetailsPage";
 import HomePage from "@pages/home_page/HomePage";
 import PortfolioPage from "@pages/portfolio_page/PortfolioPage";
 import ServicePage from "@pages/service_page/ServicePage";
-import ExperiencePage from "@pages/experience_page/ExperiencePage"
+import ExperiencePage from "@pages/experience_page/ExperiencePage";
 
 // ... Assets
 
@@ -29,7 +28,7 @@ const WebRouting = () => {
   | Comment here
   |----------------------------------------
   */
-  const { home, about, portfolio, dashboard, service, contact, experience } =
+  const { home, about, portfolio, service, contact, experience } =
     useContext(NavigationContext);
 
   return (
@@ -52,9 +51,6 @@ const WebRouting = () => {
 
         {/* Contact page */}
         <Route path={contact?.path} element={<ContactPage />} />
-
-        {/* Dashboard page */}
-        <Route path={dashboard?.path} element={<ProjectDetailsPage />} />
 
         {/* Not found */}
         <Route path="*" element="Page Not Found" />
