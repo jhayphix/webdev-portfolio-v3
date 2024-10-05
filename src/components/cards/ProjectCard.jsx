@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { BiPlusCircle } from "react-icons/bi";
 
 // ... Context
-import { ProjectContext } from "@contexts/ProjectContextProvider.jsx";
 import { DefaultContext } from "@contexts/DefaultContextProvider.jsx";
 
 // ... Components
@@ -17,7 +16,6 @@ import { DefaultContext } from "@contexts/DefaultContextProvider.jsx";
 */
 const ProjectCard = ({ project }) => {
   // Context
-  const { handleProjectClick } = useContext(ProjectContext);
   const { def_project_img_1 } = useContext(DefaultContext);
 
   // Extract variables from data (Project data)
@@ -34,11 +32,10 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="work-box">
       {/* Image */}
-      <div
-        onClick={() => handleProjectClick(project)}
+      <a
         data-gallery="portfolioGallery"
         className="portfolio-lightbox cursor_pointer"
-        role="link"
+        href="/webdev-portfolio/"
       >
         <div className="work-img">
           <img
@@ -51,7 +48,7 @@ const ProjectCard = ({ project }) => {
             }}
           />
         </div>
-      </div>
+      </a>
 
       {/* Work content */}
       <div className="work-content">
@@ -60,21 +57,17 @@ const ProjectCard = ({ project }) => {
             <h2 className="w-title mb-2"> {project_title} </h2>
             <div className="w-more">
               <span className="w-category text_accent_1">
-                {project_category}
+                WebDev
               </span>{" "}
               / <span className="w-date">{project_type}</span>
             </div>
           </div>
           <div className="col-sm-3">
             <div className="w-like">
-              <div
-                className="plus_link cursor_pointer"
-                onClick={() => handleProjectClick(project)}
-                role="link"
-              >
+              <a className="plus_link cursor_pointer" href="/webdev-portfolio/">
                 {" "}
                 <BiPlusCircle className="plus_icon" />
-              </div>
+              </a>
             </div>
           </div>
         </div>

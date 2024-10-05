@@ -1,7 +1,7 @@
 {
   "name": "react-base-app",
   "version": "0.1.0",
-  "homepage": "https://jhayphix.github.io/webdev-porfolio",
+  "homepage": "https://jhayphix.github.io/webdev-portfolio",
   "private": true,
   "dependencies": {
     "@sanity/client": "^6.21.3",

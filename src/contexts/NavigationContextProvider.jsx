@@ -48,7 +48,7 @@ const NavigationContextProvider = ({ children }) => {
   const contact = navigation_db?.contact;
 
   const nav_links = [home, about, experience, portfolio, service, contact];
-  const mobile_nav_links = [home, about, portfolio, service, contact];
+  const mobile_nav_links = [about, experience, portfolio, service, contact];
 
   /*
   |----------------------------------------
@@ -56,11 +56,10 @@ const NavigationContextProvider = ({ children }) => {
   |----------------------------------------
   */
   const resume_path = `${base_route}/documents/samuel_ablordeppey_webdev_resume.pdf`;
-  const web_dev_url = "https://jhayphix.github.io/portfolio";
+  const analytic_portfolio_url = "https://analytic-portfolio.vercel.app/";
 
+  // to delete
   const projectDetailsURL = (category, slug, id) => {
-    // const path = `${base_route}/p/${category}/${slug}-${id}`;
-    // Not using category anymore
     const path = `${base_route}/p/${slug}-${id}`;
     return path;
   };
@@ -85,7 +84,7 @@ const NavigationContextProvider = ({ children }) => {
     // Custom path
     projectDetailsURL,
     resume_path,
-    web_dev_url,
+    analytic_portfolio_url,
   };
 
   /*

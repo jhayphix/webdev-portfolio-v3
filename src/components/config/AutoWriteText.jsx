@@ -14,7 +14,7 @@ import { useState, useEffect } from "react";
 */
 
 const AutoWriteText = () => {
-  const [autoWriteText] = useState("Data and Predictive Analyst...");
+  const [autoWriteText] = useState("Frontend Web Developer...");
   const [autoWriteIndex, setAutoWriteIndex] = useState(0);
   const showcaseAutoWriteEl = document.querySelector(".auto_write_text");
 

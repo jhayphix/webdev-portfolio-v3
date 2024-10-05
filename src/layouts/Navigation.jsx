@@ -27,7 +27,8 @@ const Navigation = () => {
   |----------------------------------------
   */
 
-  const { nav_links, home } = useContext(NavigationContext);
+  const { nav_links, home, analytic_portfolio_url } =
+    useContext(NavigationContext);
   const { switchTheme, theme } = useContext(ThemeContext);
   const [nav_scrolled, setNavScrolled] = useState(false);
   const [link_clicked, setLinkClicked] = useState(false);
@@ -150,6 +151,17 @@ const Navigation = () => {
                   </li>
                 );
               })}
+
+              <li className="nav-item side_nav_item mt-4">
+                <a
+                  className="nav-link side_nav_link py-1 ps-1 text-center text-decoration-underline"
+                  href={analytic_portfolio_url}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  View Analytic Portfolio
+                </a>
+              </li>
             </ul>
           </div>
         </div>

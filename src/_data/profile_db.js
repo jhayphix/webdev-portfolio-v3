@@ -23,7 +23,7 @@ export const contactDetailsData = {
   },
   profile: {
     type: "Profile",
-    text: "Data Analyst",
+    text: "Web Developer",
     icon: <FaIdBadge className={margin_end} />,
   },
   location: {
@@ -89,19 +89,15 @@ export const contactSocialIconsData = [
 export const aboutMeContentData = [
   {
     id: 1,
-    text: "I am a Statistics graduate and a skilled data analyst with a passion for transforming raw data into meaningful insights.",
+    text: "Greetings! I'm a web developer with a background in statistics, bringing a unique blend of analytical thinking and technical expertise to the world of web development. My journey has equipped me with a broad range of skills that allow me to create both functional and visually appealing websites.",
   },
   {
     id: 2,
-    text: "Over the course of four years, I've honed my expertise in essential tools like Excel, Tableau, SQL, R and Python. ",
+    text: "On the development front, I've built various web applications using technologies like HTML, CSS, JavaScript, React, PHP, Laravel, Python, and Bootstrap. My focus is on creating seamless user experiences, ensuring that each project is both responsive and efficient.",
   },
   {
     id: 3,
-    text: "Specifically mastering data cleaning, exploration, and visualization. Also Regression and Timeseries ",
-  },
-  {
-    id: 4,
-    text: "My commitment to delivering impactful results through data analysis is what drives me, and I look forward to sharing my insights with you through my portfolio.",
+    text: "I'm passionate about leveraging technology to solve problems and improve the way we interact with digital products. If you're in need of a web developer with a drive for innovation and a commitment to quality, feel free to reach out. I'm always excited to discuss new ideas and opportunities.",
   },
 ];
 

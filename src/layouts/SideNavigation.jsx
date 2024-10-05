@@ -17,7 +17,8 @@ const SideNavigation = () => {
   |----------------------------------------
   */
 
-  const { nav_links, home, web_dev_url } = useContext(NavigationContext);
+  const { nav_links, home, analytic_portfolio_url } =
+    useContext(NavigationContext);
   const { switchTheme, theme } = useContext(ThemeContext);
 
   /*
@@ -66,11 +67,11 @@ const SideNavigation = () => {
         <div className="nav-item side_nav_item">
           <a
             className="nav-link side_nav_link py-1 ps-1"
-            href={web_dev_url}
+            href={analytic_portfolio_url}
             rel="noreferrer"
             target="_blank"
           >
-            My WebDev Portfolio
+            My Analytic Portfolio
           </a>
         </div>
       </div>
