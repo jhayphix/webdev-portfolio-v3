@@ -17,8 +17,6 @@ import { fetchProjects, fetchProjectTypes } from "@src/fetchProject.js";
 export const ProjectContext = createContext({
   active_project_tab_index: "",
   setProjectTabIndex: () => {},
-  active_project_story_index: "",
-  setActiveProjectStoryIndex: () => {},
   active_project: "",
   setActiveProject: () => {},
 
@@ -59,7 +57,6 @@ const ProjectContextProvider = ({ children }) => {
   // Set states
   const [active_project, setActiveProject] = useState({});
   const [active_project_tab_index, setProjectTabIndex] = useState(0);
-  const [active_project_story_index, setActiveProjectStoryIndex] = useState(0);
 
   const [active_project_tab_name, setActiveProjectTabName] = useState("all");
   const [posts, setPosts] = useState([]);
@@ -162,8 +159,6 @@ const ProjectContextProvider = ({ children }) => {
   const context = {
     active_project_tab_index,
     setProjectTabIndex,
-    active_project_story_index,
-    setActiveProjectStoryIndex,
     active_project,
     setActiveProject,
 

@@ -30,15 +30,11 @@ import "@components/buttons/button_document.css";
 
 import "@components/icons/icons_styles.css";
 
-import "@pages/project_details_page/sections/project_details_section.css";
-import "@pages/project_details_page/sections/story_classes.css";
-
 import "@layouts/navigation.css";
 import "@components/cards/cards.css";
 import "@components/banners/banners.css";
 import "@components/tabs/tabs.css";
 import "@components/breadcrumb/breadcrumb.css";
-import "@components/embed/embed.css";
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 root.render(<App />);
