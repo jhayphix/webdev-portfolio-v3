@@ -81,6 +81,7 @@ const ProjectContextProvider = ({ children }) => {
   const loadProjectCategories = async () => {
     // const fetchedCategories = await fetchProjectCategories();
     const fetchedCategories = await fetchProjectTypes();
+    console.log(fetchedCategories)
     const titlesArray = [
       "All",
       ...fetchedCategories?.map((item) => item.title),
@@ -98,13 +99,13 @@ const ProjectContextProvider = ({ children }) => {
   | Filter projects
   |----------------------------------------
   */
-  // Filter projects base on selected category or tab clicked
+  // Filter projects base on selected project_type or tab clicked
   const projects = posts;
   const filteredProjects =
     active_project_tab_name === "all"
       ? projects
       : projects?.filter((project) =>
-          project?.categories?.some(
+          project?.project_types?.some(
             (cat) =>
               cat?.title?.toLowerCase() ===
               active_project_tab_name?.toLowerCase()
@@ -136,9 +137,9 @@ const ProjectContextProvider = ({ children }) => {
   | Tabs and Categories
   |----------------------------------------
   */
-  // Get the tab which is clicked's index and category
+  // Get the tab which is clicked's index and type
 
-  // Change selected project category (eg. Excel) when different tab is clicked
+  // Change selected project tpye (eg. Personal) when different tab is clicked
   const changeProjectCategory = (active_project_tab_name) => {
     const project_category = active_project_tab_name?.toLowerCase();
     setActiveProjectTabName(project_category);

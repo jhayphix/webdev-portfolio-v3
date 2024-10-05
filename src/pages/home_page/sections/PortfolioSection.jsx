@@ -1,5 +1,6 @@
 // ... React modules
 import { useContext } from "react";
+import { Dropdown } from "react-bootstrap";
 
 // ... Context
 import { ProjectContext } from "@contexts/ProjectContextProvider";

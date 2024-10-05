@@ -20,7 +20,7 @@ const Footer = () => {
     <section id="footer_section" className="bg_primary_4 py-5">
       <div className="container-lg mb-sm-0 mb-5">
         <div className="text-center">
-          Copyright 2023 - {currentYear} &copy;
+          Copyright 2022 - {currentYear} &copy;
           <a
             href="https://github.com/jhayphix"
             target="_blank"

@@ -24,12 +24,12 @@ const ProjectNavTab = () => {
   } = useContext(ProjectContext);
 
   const [searchParams, setSearchParams] = useSearchParams();
-  const projectCategoryParams = searchParams.get("category") || "all";
+  const projectCategoryParams = searchParams.get("type") || "all";
   const first_project_tab_name = projectTabs?.[0]?.toLowerCase();
 
   useEffect(() => {
     // Set the search parameter to the first story's tab name on initial render
-    setSearchParams({ category: first_project_tab_name });
+    setSearchParams({ type: first_project_tab_name });
     // eslint-disable-next-line
   }, []);
 
@@ -37,9 +37,9 @@ const ProjectNavTab = () => {
     setActiveProjectTabName(projectCategoryParams);
   }, [projectCategoryParams, setActiveProjectTabName]);
 
-  const handleProjectTabClick = (index, category) => {
+  const handleProjectTabClick = (index, type) => {
     setProjectTabIndex(index);
-    setSearchParams({ category: category });
+    setSearchParams({ type: type });
   };
 
   /*
